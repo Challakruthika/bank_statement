@@ -8,7 +8,7 @@ from sklearn.ensemble import IsolationForest
 
 # --- Categorization ---
 # Load the trained ML model
-model = joblib.load("category_model.pkl")
+model = joblib.load("data_bank-main/category_model.pkl")
 
 def categorize(desc, amt):
     try:
